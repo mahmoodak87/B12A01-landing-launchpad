@@ -1,0 +1,98 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+body{
+    margin: 0 0;
+}
+
+header{
+    background-image: url(../Assets/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    max-width: 1140px 698px;
+}
+.btn-primary{
+    border: none;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 12px 36px 12px 36px;
+}
+/* banner styles */
+
+.banner-content{
+    padding: 200px 20px;
+    text-align: center;
+}
+.banner-description{
+    color: #252432;
+    font-size: 65px;
+    font-family: Raleway;
+    font-weight: 700;
+    word-wrap: break-word;
+    text-align: center;
+    width: 100%;
+}
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px auto;
+    margin: 0px 150px;
+
+}
+.nav-title{
+    color: #4E47FF;
+    font-size: 34px;
+    font-family: Inter;
+    font-weight: 900;
+    line-height: 51px;
+    word-wrap: break-word
+}
+
+/* action section style */
+.action-section{
+    margin: 141px 159px;
+}
+
+.action-title{
+    color: #252432;
+    font-size: 42px;
+    font-family: Raleway;
+    font-weight: 700;
+    margin-bottom: 23px;
+    word-wrap: break-word
+}
+
+.action-description{
+    color: rgba(37, 36, 50, 0.50);
+    font-size: 24px;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 23px;
+    word-wrap: break-word;
+}
