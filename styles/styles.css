@@ -96,3 +96,12 @@ nav{
     margin-bottom: 23px;
     word-wrap: break-word;
 }
+
+.action-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-image{
+    border-radius: 48px;
+}
