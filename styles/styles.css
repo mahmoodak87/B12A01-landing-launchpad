@@ -105,3 +105,39 @@ nav{
 .action-image{
     border-radius: 48px;
 }
+
+/* productive user section */
+.productive-user-section{
+    border-radius: 24px;
+    background-color: #4d47ff77;
+    margin: 141px 159px;
+}
+.productive-user-title{
+    padding: 50px;
+    text-align: center;
+    color: #252432;
+    font-size: 38px;
+    font-family: Raleway;
+    font-weight: 700;
+    word-wrap: break-word
+}
+.productive-user-container{
+    display: flex;
+    margin: 141px 159px;
+}
+
+.productive-column-title{
+    color: #4E47FF;
+    font-size: 80px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.productive-sub-title{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word
+}
