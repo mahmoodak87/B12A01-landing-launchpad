@@ -201,6 +201,19 @@ nav{
     padding: 10px;
     background-color: white;
 }
+
+.user-avatar{
+    display: flex;
+    gap: 6px;
+}
+
+.avatar-photo{
+    border-radius: 50%;
+}
+
+.user-name-date{
+    gap:0px
+}
 /* footer styles */
 footer{
     padding: 130px 230px;
