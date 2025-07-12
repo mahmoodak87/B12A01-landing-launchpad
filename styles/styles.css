@@ -17,6 +17,7 @@
 }
 /* shared style */
 body{
+    background-color: #F5F8FF;
     margin: 0 0;
 }
 
@@ -107,9 +108,30 @@ nav{
 }
 
 /* productive user section */
+.productive-parent{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 .productive-user-section{
+    width: 100%;
+    position: relative;
     border-radius: 24px;
-    background-color: #4d47ff77;
+    background-color: rgba(78, 71, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 80px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 38px;
+    color: #252432;
+    font-family: Raleway;
     margin: 141px 159px;
 }
 .productive-user-title{
@@ -122,11 +144,20 @@ nav{
     word-wrap: break-word
 }
 .productive-user-container{
+    align-self: stretch;
     display: flex;
-    margin: 141px 159px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 158px;
+    text-align: left;
+    font-size: 80px;
+    color: #4e47ff;
+    font-family: Inter;
 }
 
 .productive-column-title{
+    position: relative;
     color: #4E47FF;
     font-size: 80px;
     font-family: Inter;
@@ -135,9 +166,58 @@ nav{
 }
 
 .productive-sub-title{
+    position: relative;
     color: rgba(0, 0, 0, 0.50);
     font-size: 20px;
     font-family: Inter;
     font-weight: 400;
     word-wrap: break-word
+}
+
+/* Users’ Feedback Section Styles */
+.user-feedback-title{
+    width: 100%;
+    position: relative;
+    font-size: 42px;
+    display: inline-block;
+    font-family: Raleway;
+    color: #252432;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-container{
+    display: flex;
+    gap: 50px;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 141px 159px;
+}
+
+.card{
+    width: 300px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+}
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
